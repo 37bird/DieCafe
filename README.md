@@ -1,2 +1,2 @@
 # DieCafe
-for the DieCafe website. 
+For the DieCafe website. 
