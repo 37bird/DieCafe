@@ -17,18 +17,20 @@ body{
     grid-column-end: 6;
     justify-self: center;
     grid-row: 1;
-    font-size: 60px;
+    font-size: 80px;
     color: #B57209;
 }
 .welcome{
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row: 2;
+    color: #FFF;
 }
 .read{
     grid-column: 7;
     grid-row: 3;
-    font-size: 25px;
+    font-size: 35px;
+    color: #FFF;
 }
 .description{
     grid-column-start: 3;
@@ -36,6 +38,7 @@ body{
     grid-row:3;
     /*justify-self: center;*/
     font-size: 20px;
+    color: #FFF;
 }
 .pic {
     width: auto;
@@ -49,7 +52,7 @@ body{
 .carousel {
     grid-column-start: 3;
     grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
     justify-content: center;
 }
