@@ -13,10 +13,10 @@ body{
 }
 .title{
     font-family: "Gill Sans Nova Cond XBd", sans-serif;
-    grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
     justify-self: center;
-    grid-row: 1;
+    grid-row: 2;
     font-size: 80px;
     color: #B57209;
 }
@@ -28,9 +28,11 @@ body{
 }
 .read{
     grid-column: 7;
-    grid-row: 3;
-    font-size: 35px;
-    color: #FFF;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
 }
 .description{
     grid-column-start: 3;
@@ -47,12 +49,27 @@ body{
     height: 400px;
     min-height: 400px;
     max-height: 400px;
+    justify-content: center;
+    align-content: center;
 }
 
 .carousel {
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-end: 5;
     justify-content: center;
+}
+.navbar {
+    display: grid;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+.collapse {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    width: 1400px;
+    height: 100px;
 }
