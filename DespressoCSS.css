@@ -13,34 +13,36 @@ body{
 }
 .title{
     font-family: "Gill Sans Nova Cond XBd", sans-serif;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    justify-self: center;
-    grid-row: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row: 1;
     font-size: 80px;
     color: #B57209;
+    justify-self: center;
 }
 .welcome{
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row: 2;
     color: #FFF;
+    justify-items: center;
 }
 .read{
-    grid-column: 7;
+    grid-column: 1;
     grid-row-start: 3;
     grid-row-end: 6;
     font-size: 45px;
     color: #fff;
     text-align: center;
+    justify-content: center;
 }
 .description{
     grid-column-start: 3;
     grid-column-end: 6;
-    grid-row:3;
-    /*justify-self: center;*/
+    grid-row: 3;
     font-size: 20px;
     color: #FFF;
+    justify-content: center;
 }
 .pic {
     width: auto;
@@ -60,16 +62,15 @@ body{
     grid-row-end: 5;
     justify-content: center;
 }
-.navbar {
+.nav {
     display: grid;
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 12;
+    justify-self: center;
 }
 .collapse {
     display: grid;
     grid-column-start: 1;
-    grid-column-end: 12;
-    width: 1400px;
-    height: 100px;
+    grid-column-end: 7;
 }
