@@ -17,7 +17,7 @@ body{
     grid-column-end: 6;
     grid-row: 1;
     font-size: 80px;
-    color: #B57209;
+    color: #666666;
     justify-self: center;
 }
 .welcome{
@@ -68,9 +68,5 @@ body{
     grid-column-start: 1;
     grid-column-end: 12;
     justify-self: center;
-}
-.collapse {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 7;
+    color: #FFF;
 }
